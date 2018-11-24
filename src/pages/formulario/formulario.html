@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-navbar>
+    <ion-row class="Header">
+      <ion-col col-auto class="centerdiv">
+        <button ion-button clear color="light" menuToggle >
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col class="centerdiv">
+        <div text-right>
+          <h1 no-margin>SICLAS</h1>
+          <p no-margin>Formulario</p>
+        </div>
+        </ion-col>
+      <ion-col col-auto class="centerdiv">
+          <img src="../../assets/imgs/Logo_0.25x.png">
+      </ion-col>
+    </ion-row>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <div class="div_fieldset color1">
+    <fieldset>
+      <legend>Datos del perfil</legend>
+      <ion-item class="color1">
+        <ion-label color="light" stacked>Nombre:</ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color1">
+        <ion-label color="light" stacked>Apellido:</ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color1">
+        <ion-label color="light" stacked>Email:</ion-label>
+        <ion-input type="email" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color1">
+        <ion-label color="light" stacked>Celular:</ion-label>
+        <ion-input type="tel" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color1">
+        <ion-label color="light" stacked>Localidad</ion-label>
+        <ion-select [(ngModel)]="localidad" placeholder="Seleccionar localidad">
+            <ion-option value="0">Antonio Nariño</ion-option>
+            <ion-option value="1">Barrios Unidos</ion-option>
+            <ion-option value="2">Bosa</ion-option>
+            <ion-option value="3">Chapinero</ion-option>
+            <ion-option value="4">Ciudad Bolívar</ion-option>
+            <ion-option value="5">Engativá</ion-option>
+            <ion-option value="6">Fontibón</ion-option>
+            <ion-option value="7">Kennedy</ion-option>
+            <ion-option value="8">La Calendaria</ion-option>
+            <ion-option value="9">Los Mártires</ion-option>
+            <ion-option value="10">Puente Aranda</ion-option>
+            <ion-option value="11">Rafael Uribe Uribe</ion-option>
+            <ion-option value="12">San Cristóbal</ion-option>
+            <ion-option value="13">Santa Fe</ion-option>
+            <ion-option value="14">Suba</ion-option>
+            <ion-option value="15">Sumapaz</ion-option>
+            <ion-option value="16">Teusaquillo</ion-option>
+            <ion-option value="17">Tunjuelito</ion-option>
+            <ion-option value="18">Usaquén</ion-option>
+            <ion-option value="19">Usme</ion-option>
+          </ion-select>
+      </ion-item>
+    </fieldset>
+  </div>
+  <div class="div_fieldset color2">
+    <fieldset>
+      <legend>Datos de bicicleta</legend>
+      <ion-item class="color2">
+        <ion-label color="light" stacked>Referencia:</ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color2">
+        <ion-label color="light" stacked>Marca:</ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color2">
+        <ion-label color="light" stacked>Color:</ion-label>
+        <ion-input type="text" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item class="color2">
+        <ion-label color="light" stacked>Seleccionar foto:</ion-label>
+        <ion-input class = "labeltext" type="file" placeholder=""></ion-input>
+      </ion-item>
+    </fieldset>
+  </div>
+
+</ion-content>

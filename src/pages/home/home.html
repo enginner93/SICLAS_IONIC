@@ -1,18 +1,114 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
+    <ion-row class="Header">
+      <ion-col col-auto class="centerdiv">
+        <button ion-button clear color="light" menuToggle >
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col class="centerdiv">
+        <div text-right>
+          <h1 no-margin>SICLAS</h1>
+          <p no-margin>Servicio de Informacion y consulta local a ciclistas</p>
+        </div>
+        </ion-col>
+      <ion-col col-auto class="centerdiv">
+          <img src="../../assets/imgs/Logo_0.25x.png">
+      </ion-col>
+    </ion-row>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-slides>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_1.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_2.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_3.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_4.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_5.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_6.jpeg">
+              </ion-slide>
+              <ion-slide>
+                <img src="../../assets/imgs/bike_7.jpeg">
+              </ion-slide>
+            </ion-slides>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12 text-center>
+        <div class="description">
+            <img class="imgdesp" src="../../assets/imgs/description_1.png" alt="Info">
+            <div class="overlay">
+              <div>
+                  <h6>PLANEA TU VIAJE</h6>
+                  <p>Planea tu recorrido usando rutas rápidas y seguras, conoce las diferentes zonas de riesgo en tu localidad, informa de cualquier evento o falla en la infraestructura pública que pueda afectar tu seguridad y la de los demás.</p>
+              </div>
+            </div>
+        </div>
+        <div class="description">
+            <img class="imgdesp" src="../../assets/imgs/description_2.png" alt="Info" >
+            <div class="overlay">
+              <div>
+                  <h6>SEGURIDAD</h6>
+                  <p>En la actualidad la seguridad es un tema importante en nuestro diario vivir, por lo tanto se hace uso de tecnologías para aportar en la solución a la problemática de inseguridad que enfrentan algunos de los ciudadanos que usan la bicicleta como medio de transporte.</p>
+              </div>
+            </div>
+        </div>
+        <div class="description">
+            <img class="imgdesp" src="../../assets/imgs/description_3.png" alt="Info">
+            <div class="overlay">
+              <div>
+                  <h6>INFORMACIÓN Y ALERTAS</h6>
+                  <p>Recibe información en tiempo real acerca de eventos que sucedan dentro de tu localidad, además de enviar y responder a solicitudes expresadas por otros usuarios.</p>
+              </div>
+            </div>
+        </div >
+      </ion-col>
+    </ion-row>
+    <!--
+    <ion-row>
+      <ion-col col-12 col-sm-4 text-center style="background-color: blue">
+        <div class="description">
+          <img class="imgdesp" src="../../assets/imgs/description_1.png" alt="Info">
+          <div class="overlay vertical-align-text">
+            <h6>PLANEA TU VIAJE</h6>
+            <p>Planea tu recorrido usando rutas rápidas y seguras, conoce las diferentes zonas de riesgo en tu localidad, informa de cualquier evento o falla en la infraestructura pública que pueda afectar tu seguridad y la de los demás.</p>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col col-12 col-sm-4 text-center style="background-color: rgb(9, 255, 0)">
+        <div class="description">
+          <img class="imgdesp" src="../../assets/imgs/description_2.png" alt="Info" >
+          <div class="overlay vertical-align-text">
+            <h6>SEGURIDAD</h6>
+            <p>En la actualidad la seguridad es un tema importante en nuestro diario vivir, por lo tanto se hace uso de tecnologías para aportar en la solución a la problemática de inseguridad que enfrentan algunos de los ciudadanos que usan la bicicleta como medio de transporte.</p>
+          </div>
+        </div>
+      </ion-col>
+      <ion-col col-12 col-sm-4 text-center style="background-color: rgb(255, 187, 0)">
+        <div class="description">
+          <img class="imgdesp" src="../../assets/imgs/description_3.png" alt="Info">
+          <div class="overlay vertical-align-text">
+            <h6>INFORMACIÓN Y ALERTAS</h6>
+            <p>Recibe información en tiempo real acerca de eventos que sucedan dentro de tu localidad, además de enviar y responder a solicitudes expresadas por otros usuarios.</p>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+    -->
+  </ion-grid>
 </ion-content>
+                                                          
